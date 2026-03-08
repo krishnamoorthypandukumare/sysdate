@@ -17,67 +17,67 @@ import lombok.AllArgsConstructor;
 @Table(name = "business_domain")
 public class BusinessDomain {
     // Finance and Banking
-    private String financeName;
-    private Date financeEstablishmentDate;
-    private BigDecimal financeAmount;
+    private String financeName; // DMAP Comment : Dead Code Detected - The Following Field has no reference financeName
+    private Date financeEstablishmentDate; // DMAP Comment : Dead Code Detected - The Following Field has no reference financeEstablishmentDate
+    private BigDecimal financeAmount; // DMAP Comment : Dead Code Detected - The Following Field has no reference financeAmount
 
     // Healthcare
-    private String healthcareServiceName;
-    private java.sql.Date healthcareServiceCreationDate;
-    private BigDecimal healthcareAmount;
+    private String healthcareServiceName; // DMAP Comment : Dead Code Detected - The Following Field has no reference healthcareServiceName
+    private java.sql.Date healthcareServiceCreationDate; // DMAP Comment : Dead Code Detected - The Following Field has no reference healthcareServiceCreationDate
+    private BigDecimal healthcareAmount; // DMAP Comment : Dead Code Detected - The Following Field has no reference healthcareAmount
 
     // E-commerce
-    private String ecommercePlatformName;
-    private LocalDate ecommercePlatformLaunchDate;
-    private BigDecimal ecommerceAmount;
+    private String ecommercePlatformName; // DMAP Comment : Dead Code Detected - The Following Field has no reference ecommercePlatformName
+    private LocalDate ecommercePlatformLaunchDate; // DMAP Comment : Dead Code Detected - The Following Field has no reference ecommercePlatformLaunchDate
+    private BigDecimal ecommerceAmount; // DMAP Comment : Dead Code Detected - The Following Field has no reference ecommerceAmount
 
     // Education
-    private String educationInstitutionName;
-    private java.sql.Date educationInstitutionEstablishedDate;
-    private BigDecimal educationAmount;
+    private String educationInstitutionName; // DMAP Comment : Dead Code Detected - The Following Field has no reference educationInstitutionName
+    private java.sql.Date educationInstitutionEstablishedDate; // DMAP Comment : Dead Code Detected - The Following Field has no reference educationInstitutionEstablishedDate
+    private BigDecimal educationAmount; // DMAP Comment : Dead Code Detected - The Following Field has no reference educationAmount
 
     // Travel and Hospitality
-    private String travelServiceName;
-    private Date travelServiceLaunchDate;
-    private BigDecimal travelAmount;
+    private String travelServiceName; // DMAP Comment : Dead Code Detected - The Following Field has no reference travelServiceName
+    private Date travelServiceLaunchDate; // DMAP Comment : Dead Code Detected - The Following Field has no reference travelServiceLaunchDate
+    private BigDecimal travelAmount; // DMAP Comment : Dead Code Detected - The Following Field has no reference travelAmount
 
     // Real Estate
-    private String realEstateProjectName;
-    private LocalDate realEstateProjectCompletionDate;
-    private BigDecimal realEstateAmount;
+    private String realEstateProjectName; // DMAP Comment : Dead Code Detected - The Following Field has no reference realEstateProjectName
+    private LocalDate realEstateProjectCompletionDate; // DMAP Comment : Dead Code Detected - The Following Field has no reference realEstateProjectCompletionDate
+    private BigDecimal realEstateAmount; // DMAP Comment : Dead Code Detected - The Following Field has no reference realEstateAmount
 
     // Manufacturing
-    private String manufacturingCompanyName;
-    private java.sql.Date manufacturingCompanyFoundedDate;
-    private BigDecimal manufacturingAmount;
+    private String manufacturingCompanyName; // DMAP Comment : Dead Code Detected - The Following Field has no reference manufacturingCompanyName
+    private java.sql.Date manufacturingCompanyFoundedDate; // DMAP Comment : Dead Code Detected - The Following Field has no reference manufacturingCompanyFoundedDate
+    private BigDecimal manufacturingAmount; // DMAP Comment : Dead Code Detected - The Following Field has no reference manufacturingAmount
 
     // Telecommunications
-    private String telecomProviderName;
-    private Date telecomProviderEstablishedDate;
-    private BigDecimal telecomAmount;
+    private String telecomProviderName; // DMAP Comment : Dead Code Detected - The Following Field has no reference telecomProviderName
+    private Date telecomProviderEstablishedDate; // DMAP Comment : Dead Code Detected - The Following Field has no reference telecomProviderEstablishedDate
+    private BigDecimal telecomAmount; // DMAP Comment : Dead Code Detected - The Following Field has no reference telecomAmount
 
     // Retail
-    private String retailStoreName;
-    private LocalDate retailStoreOpeningDate;
-    private BigDecimal retailAmount;
+    private String retailStoreName; // DMAP Comment : Dead Code Detected - The Following Field has no reference retailStoreName
+    private LocalDate retailStoreOpeningDate; // DMAP Comment : Dead Code Detected - The Following Field has no reference retailStoreOpeningDate
+    private BigDecimal retailAmount; // DMAP Comment : Dead Code Detected - The Following Field has no reference retailAmount
 
     // Automotive
-    private String automotiveCompanyName;
-    private java.sql.Date automotiveCompanyFoundedDate;
-    private BigDecimal automotiveAmount;
+    private String automotiveCompanyName; // DMAP Comment : Dead Code Detected - The Following Field has no reference automotiveCompanyName
+    private java.sql.Date automotiveCompanyFoundedDate; // DMAP Comment : Dead Code Detected - The Following Field has no reference automotiveCompanyFoundedDate
+    private BigDecimal automotiveAmount; // DMAP Comment : Dead Code Detected - The Following Field has no reference automotiveAmount
 
     // Media and Entertainment
-    private String mediaCompanyName;
-    private Date mediaCompanyEstablishedDate;
-    private BigDecimal mediaAmount;
+    private String mediaCompanyName; // DMAP Comment : Dead Code Detected - The Following Field has no reference mediaCompanyName
+    private Date mediaCompanyEstablishedDate; // DMAP Comment : Dead Code Detected - The Following Field has no reference mediaCompanyEstablishedDate
+    private BigDecimal mediaAmount; // DMAP Comment : Dead Code Detected - The Following Field has no reference mediaAmount
 
     // Insurance
-    private String insuranceCompanyName;
-    private LocalDate insuranceCompanyIncorporationDate;
-    private BigDecimal insuranceAmount;
+    private String insuranceCompanyName; // DMAP Comment : Dead Code Detected - The Following Field has no reference insuranceCompanyName
+    private LocalDate insuranceCompanyIncorporationDate; // DMAP Comment : Dead Code Detected - The Following Field has no reference insuranceCompanyIncorporationDate
+    private BigDecimal insuranceAmount; // DMAP Comment : Dead Code Detected - The Following Field has no reference insuranceAmount
 
     // Human Resources
-    private String hrServiceName;
-    private java.sql.Date hrServiceEstablishmentDate;
-    private BigDecimal hrAmount;
+    private String hrServiceName; // DMAP Comment : Dead Code Detected - The Following Field has no reference hrServiceName
+    private java.sql.Date hrServiceEstablishmentDate; // DMAP Comment : Dead Code Detected - The Following Field has no reference hrServiceEstablishmentDate
+    private BigDecimal hrAmount; // DMAP Comment : Dead Code Detected - The Following Field has no reference hrAmount
 }
